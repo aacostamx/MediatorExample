@@ -38,5 +38,4 @@ In our project we will use a little of this concept, however, we will not delve 
 
 Links
 -----
-[Mediatrix Pattern with MediatR - ASP.NET Core 2.2
-](https://imasters.com.br/back-end/mediator-pattern-com-mediatr-asp-net-core-2-2)
+[Mediator Pattern com MediatR – ASP.NET Core 2.2](https://imasters.com.br/back-end/mediator-pattern-com-mediatr-asp-net-core-2-2)
