@@ -18,7 +18,9 @@ Benefits
 1. Decoupling between objects, since no object is known in communication
 2. The communication flow is centralized. As a result, changes in the mediator do not affect their listeners.
 3. Changes can be easily applied to objects because they are independent
+
 Disadvantages
+-------------
 1. Depending on the amount of information to be processed, the mediator may become the application bottleneck
 2. Higher code complexity
 
@@ -35,6 +37,14 @@ CQRS
 Command Query Responsibility Segregation, or CQRS, is a standard software development architecture that consists of separating reading and writing into two models: Query and Command , one for reading and the other for writing data, respectively.
 
 In our project we will use a little of this concept, however, we will not delve into it, because it is not the purpose of this article.
+
+Conclusion
+----------
+Mediator Pattern helps us keep our system flexible to change and makes our objects totally independent, each with its own responsibility.
+
+Using the MediatR library, all communication between objects is encapsulated and ready for use, making implementation of this standard faster and easier.
+
+![alt text](https://static.imasters.com.br/wp-content/uploads/2019/05/30104628/cbb.jpg)
 
 Links
 -----
